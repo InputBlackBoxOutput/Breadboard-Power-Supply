@@ -317,60 +317,16 @@ F 3 "" H 8550 2200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8550 2200 8550 2150
-$Comp
-L Connector:TestPoint VIN1
-U 1 1 5F92D150
-P 8900 1650
-F 0 "VIN1" H 8958 1722 50  0000 L CNN
-F 1 "TestPoint" H 8958 1677 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 9100 1650 50  0001 C CNN
-F 3 "~" H 9100 1650 50  0001 C CNN
-	1    8900 1650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8900 1650 8900 1750
 Wire Wire Line
 	8550 1750 8900 1750
-$Comp
-L Connector:TestPoint _5V
-U 1 1 5F9315C5
-P 9250 1650
-F 0 "_5V" H 9308 1722 50  0000 L CNN
-F 1 "TestPoint" H 9308 1677 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 9450 1650 50  0001 C CNN
-F 3 "~" H 9450 1650 50  0001 C CNN
-	1    9250 1650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9250 1650 9250 1750
 Wire Wire Line
 	9250 1750 9650 1750
-$Comp
-L Connector:TestPoint GND1
-U 1 1 5F935381
-P 8900 2050
-F 0 "GND1" H 8958 2122 50  0000 L CNN
-F 1 "TestPoint" H 8958 2077 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 9100 2050 50  0001 C CNN
-F 3 "~" H 9100 2050 50  0001 C CNN
-	1    8900 2050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8900 2050 8900 2150
-$Comp
-L Connector:TestPoint 3V3
-U 1 1 5F9370A5
-P 9250 2050
-F 0 "3V3" H 9308 2122 50  0000 L CNN
-F 1 "TestPoint" H 9308 2077 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 9450 2050 50  0001 C CNN
-F 3 "~" H 9450 2050 50  0001 C CNN
-	1    9250 2050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9250 2050 9250 2150
 Wire Wire Line
@@ -790,6 +746,50 @@ Wire Wire Line
 	4550 2300 4950 2300
 Wire Wire Line
 	4950 1850 4950 2300
+$Comp
+L Connector:TestPoint TP4
+U 1 1 5F9370A5
+P 9250 2050
+F 0 "TP4" H 9308 2122 50  0000 L CNN
+F 1 "TestPoint" H 9308 2077 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 9450 2050 50  0001 C CNN
+F 3 "~" H 9450 2050 50  0001 C CNN
+	1    9250 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP3
+U 1 1 5F9315C5
+P 9250 1650
+F 0 "TP3" H 9308 1722 50  0000 L CNN
+F 1 "TestPoint" H 9308 1677 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 9450 1650 50  0001 C CNN
+F 3 "~" H 9450 1650 50  0001 C CNN
+	1    9250 1650
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	4550 1850 4550 2100
+$Comp
+L Connector:TestPoint TP2
+U 1 1 5F935381
+P 8900 2050
+F 0 "TP2" H 8958 2122 50  0000 L CNN
+F 1 "TestPoint" H 8958 2077 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 9100 2050 50  0001 C CNN
+F 3 "~" H 9100 2050 50  0001 C CNN
+	1    8900 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5F92D150
+P 8900 1650
+F 0 "TP1" H 8958 1722 50  0000 L CNN
+F 1 "TestPoint" H 8958 1677 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 9100 1650 50  0001 C CNN
+F 3 "~" H 9100 1650 50  0001 C CNN
+	1    8900 1650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
