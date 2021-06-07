@@ -6,20 +6,18 @@ A convenient power supply to provide power while building and testing analog/dig
 ## Features
 * Snaps right onto a breadboard
 * Input power can be derived from a 12V SMPS via barrel jack or 5V via USB cable
-* Switches to switch the output voltages on/off
+* Switches to switch the output voltages on/off 
+* Provides variable voltage 
 
 ## Technical specs
-* *Output voltages:* 5 ± 0.150V and 3.3 ± 0.099V
+* *Output voltages:* Fixed: 5 ± 0.150V and 3.3 ± 0.099V and Variable: 1.25V to ≈Vsupply 
 * *Output currents:* 1.1A max for each voltage when connected to a 12V 2A SMPS and 500 mA total when connected to USB
 
 ### Caution: Do not connect current hungry components when input power is provided via USB 
 
 ## 3D Render
-![View 1](images/view1.png)
-![View 2](images/view2.png)
+<img src="images/view1.png" width=300>
+<img src="images/view2.png" width=300>
 
-## Future development
-* Adding a waveform generator to generate sinusoidal, square and triangular wave at various frequencies 
-* Adding a multi-channel high-speed ADC to sample signals and plot waveforms on the serial monitor
 
 ### Made with lots of ⏱️, 📚 and ☕ by [InputBlackBoxOutput](https://github.com/InputBlackBoxOutput/)
