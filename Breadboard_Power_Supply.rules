@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 372)
+    (start_pass_no 1531)
     (layer_rule F.Cu
       (active on)
       (preferred_direction vertical)
@@ -63,8 +63,8 @@
     )
   )
   (class "kicad_default"
-    GND VDC +5V +3V3 "Net-(DS1-Pad2)" "Net-(DS2-Pad2)" "Net-(D1-Pad2)" "3.3V_OUT"
-    "5V_OUT" VIN "Net-(J2-Pad2)" "Net-(J2-Pad3)" "Net-(J2-Pad4)"
+    GND VDC +5V +3V3 "Net-(DS1-Pad2)" "Net-(DS2-Pad2)" "Net-(D1-Pad2)" /VIN
+    "/VAR_VLG_OUT" "/5V_OUT" "/3.3V_OUT" "Net-(DS3-Pad2)" "/VAR_VLG" "Net-(R1-Pad1)"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
