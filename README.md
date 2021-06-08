@@ -19,7 +19,8 @@ A convenient power supply to provide power while building and testing analog/dig
 <img src="images/img1.png" width=300>
 <img src="images/img2.png" width=300>
 
-### Earlier variant using mostly through-hole components
+### Variant using mostly through-hole components
+This variant does not have variable voltage supply.
 
 [Link to the PCB design files](https://github.com/InputBlackBoxOutput/Breadboard-Power-Supply/tree/60b90112e1da0e54daea845532b61c8a3cf01776)
 
