@@ -16,15 +16,15 @@ A convenient power supply to provide power while building and testing analog/dig
 ### Caution: Do not connect current hungry components when input power is provided via USB 
 
 ## 3D Render
-<img src="images/img1.png" width=300>
-<img src="images/img2.png" width=300>
+<img src="docs/images/img1.png" width=300>
+<img src="docs/images/img2.png" width=300>
 
 ### Variant using mostly through-hole components
 This variant does not have variable voltage supply.
 
 [Link to the PCB design files](https://github.com/InputBlackBoxOutput/Breadboard-Power-Supply/tree/60b90112e1da0e54daea845532b61c8a3cf01776)
 
-<img src="images/img3.png" width=300>
-<img src="images/img4.png" width=300>
+<img src="docs/images/img3.png" width=300>
+<img src="docs/images/img4.png" width=300>
 
 ### Made with lots of ⏱️, 📚 and ☕ by [InputBlackBoxOutput](https://github.com/InputBlackBoxOutput/)

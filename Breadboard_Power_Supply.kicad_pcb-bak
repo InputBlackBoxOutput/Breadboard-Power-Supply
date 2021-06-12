@@ -1404,8 +1404,8 @@
     )
   )
 
-  (gr_text "ON @ >2V" (at 151.15 110.85) (layer F.SilkS)
-    (effects (font (size 0.8 0.8) (thickness 0.1)))
+  (gr_text "ON @ ≈2V" (at 151.2 110.85) (layer F.SilkS)
+    (effects (font (size 0.6 0.6) (thickness 0.08)))
   )
   (gr_text "Breadboard Power Supply" (at 141.5 118.7) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.1)))

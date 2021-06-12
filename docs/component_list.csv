@@ -1,0 +1,21 @@
+Id,Designator,Package,Quantity,Designation
+1,D1,D_SMB,1,SS22T3G
+2,R1,Potentiometer_Bourns_3314G_Vertical,1,5k
+3,U1,SOT-223,1,LM317_3PinPackage
+4,SW1,SW_DIP_SPSTx04_Slide_9.78x12.34mm_W8.61mm_P2.54mm,1,SW_DIP_x04
+5,R5,R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,820R
+6,R2,R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,240R
+7,J6,PinHeader_2x04_P2.54mm_Vertical_SMD,1,Conn_02x04_Odd_Even
+8,"DS3,DS2,DS1",LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder,3,LED
+9,C2,C_1206_3216Metric_Pad1.42x1.75mm_HandSolder,1,1uF
+10,C1,C_1206_3216Metric_Pad1.42x1.75mm_HandSolder,1,0.1uF
+11,J5,PinHeader_2x02_P2.54mm_Vertical,1,2
+12,J4,PinHeader_2x02_P2.54mm_Vertical,1,1
+13,R4,R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,1.5k
+14,R3,R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,2.2k
+15,J1,PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Left,1,9V Battery
+16,"C4,C3",C_1206_3216Metric_Pad1.42x1.75mm_HandSolder,2,22uF
+17,J3,USB_B_OST_USB-B1HSxx_Horizontal,1,USB_B
+18,J2,BarrelJack_CUI_PJ-102AH_Horizontal,1,Barrel_Jack_Switch
+19,U3,SOT-223-3_TabPin2,1,AMS1117-3.3
+20,U2,SOT-223-3_TabPin2,1,AMS1117-5.0
