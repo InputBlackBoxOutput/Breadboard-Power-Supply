@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name Breadboard_Power_Supply)(type KiCad)(uri ${KIPRJMOD}/library/footprints)(options "")(descr ""))
-)

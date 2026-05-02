@@ -5,6 +5,7 @@ A convenient power supply to provide power while building and testing analog/dig
 
 ## Features
 * Snaps right onto a breadboard
+* Ships with 2 variants SMD and THT for choice of components
 * Input power can be derived from a 12V SMPS via barrel jack or 5V via USB cable
 * Switches to switch the output voltages on/off 
 * Provides variable voltage 
@@ -16,14 +17,14 @@ A convenient power supply to provide power while building and testing analog/dig
 ### Caution: Do not connect current hungry components when input power is provided via USB 
 
 ## 3D Render
-|||
+#### SMD variant
+|  |  |
 |--|--|
 |<img src="documents/images/img1.png" width=300>|<img src="documents/images/img2.png" width=300>|
 
-### [Variant using mostly through-hole components and without variable power supply](https://github.com/InputBlackBoxOutput/Breadboard-Power-Supply/tree/60b90112e1da0e54daea845532b61c8a3cf01776)
-
-|||
+#### THT variant
+|  |  |
 |--|--|
 |<img src="documents/images/img3.png" width=300>|<img src="documents/images/img4.png" width=300>|
 
-### Made with lots of ⏱️, 📚 and ☕ by [InputBlackBoxOutput](https://github.com/InputBlackBoxOutput/)
+### Made with lots of ⏱️, 📚 and ☕ by InputBlackBoxOutput

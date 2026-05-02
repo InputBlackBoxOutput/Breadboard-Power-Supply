@@ -1,0 +1,33 @@
+# KiCad project files
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.bak
+*.kicad_pro.lck
+*.ses
+*/board-backups
+
+# KiCad generated files
+fp-info-cache
+fp-lib-table
+sym-lib-table
+sym-lib-cache
+
+# Build and output files
+*.net
+*.dsn
+*.sch
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+.history/
+~*
