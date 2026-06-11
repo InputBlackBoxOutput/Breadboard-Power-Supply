@@ -1,5 +1,5 @@
 
-(rules PCB Breadboard_Power_Supply
+(rules PCB board
   (snap_angle 
     fortyfive_degree
   )
@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 372)
+    (start_pass_no 376)
     (layer_rule F.Cu
       (active on)
       (preferred_direction vertical)
@@ -27,9 +27,11 @@
   )
   (rule
     (width 400.0)
-    (clear 300.2)
-    (clear 200.0 (type smd_to_turn_gap))
-    (clear 75.0 (type smd_smd))
+    (clearance 300.2)
+    (clearance 200.0 (type smd_to_turn_gap))
+    (clearance 300.2 (type smd))
+    (clearance 300.2 (type "kicad_default"))
+    (clearance 300.2 (type kicad))
   )
   (padstack "Via[0-1]_800:400_um"
     (shape
@@ -63,10 +65,10 @@
     )
   )
   (class "kicad_default"
-    GND VDC +5V +3V3 "Net-(DS1-Pad2)" "Net-(DS2-Pad2)" "Net-(D1-Pad2)" "3.3V_OUT"
-    "5V_OUT" VIN "Net-(J2-Pad2)" "Net-(J2-Pad3)" "Net-(J2-Pad4)"
+    +5V GND VDC +3.3V "Net-(DS1-A)" /5V /3.3V "Net-(DS2-A)"
+    "Net-(D1-A)" /VIN "unconnected-(J2-D--Pad2)" "unconnected-(J2-D+-Pad3)" "unconnected-(J2-GND-Pad4)"
     (clearance_class "kicad_default")
-    (via_rule kicad_default)
+    (via_rule "kicad_default")
     (rule
       (width 400.0)
     )
