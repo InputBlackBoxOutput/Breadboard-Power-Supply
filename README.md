@@ -2,7 +2,6 @@
 
 A convenient power supply to provide power while building and testing analog/digital circuits on a breadboard
 
-
 ## Features
 * Snaps right onto a breadboard
 * Ships with 2 variants SMD and THT for choice of components
@@ -10,21 +9,15 @@ A convenient power supply to provide power while building and testing analog/dig
 * Switches to switch the output voltages on/off 
 * Provides variable voltage 
 
-## Technical specs
+## Technical specification
 * *Output voltages:* Fixed: 5 ± 0.150V and 3.3 ± 0.099V and Variable: 1.25V to ≈Vsupply 
 * *Output currents:* 1.1A max for each voltage when connected to a 12V 2A SMPS and 500 mA total when connected to USB
 
 ### Caution: Do not connect current hungry components when input power is provided via USB 
 
 ## 3D Render
-#### SMD variant
-|  |  |
+| SMD variant | THT variant |
 |--|--|
-|<img src="documents/images/img1.png" width=300>|<img src="documents/images/img2.png" width=300>|
-
-#### THT variant
-|  |  |
-|--|--|
-|<img src="documents/images/img3.png" width=300>|<img src="documents/images/img4.png" width=300>|
+|<img src="documentation/SMD.png">|<img src="documentation/THT.png">|
 
 ### Made with lots of ⏱️, 📚 and ☕ by InputBlackBoxOutput
